@@ -1,0 +1,149 @@
+/*font-family: 'Cormorant Garamond', serif;
+font-family: 'Frank Ruhl Libre', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Sofia', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+
+
+html {
+  font: normal normal 1vw/1 'Railway', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #808080;
+}
+
+nav a {
+
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: #FFF;
+  opacity: .9;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+h1 {
+  font: normal normal 2em/1 'Lora', cursive;
+  margin: 2vw 0 2.5vw 2.25vw;
+  height: 1.75vw;
+  display: inline-block;
+  width: 23vw;
+}
+
+.nav-padding {
+  padding: 0;
+  height: 12vw;
+}
+
+.pull-quote {
+  font: normal 300 2.5em/1.35 'Cormorant Garamond', sans-serif;
+  /*letter-spacing: .08em;*/
+  text-align: center;
+  color: #595959;
+  width: 52%;
+  margin: auto;
+  padding: 0 0 5vw 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul.navlinks {
+  vertical-align: top;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: .73vw;
+  letter-spacing: .25em;
+  width: 49vw;
+  height: 1vw;
+  margin: 2.625vw 0;
+}
+
+ul.navlinks li {
+  display: inline-block;
+  margin: 0 2vw;
+}
+
+ul.social {
+  vertical-align: top;
+  height: 1.25vw;
+  text-align: right;
+  display: inline-block;
+  width: 22vw;
+  margin: 2.5vw 2.25vw 2.5vw 0;
+}
+
+.social li {
+  display: inline-block;
+  padding: 0 0 0 1.75vw;
+}
+
+.social img {
+  height: 1.25vw;
+  width: auto;
+}
+
+.banner-image {
+  text-align: center;
+  padding: 0 0 11vw;
+}
+
+.banner-image a {
+  background-color: green;
+  position: relative;
+  z-index: -100;
+
+}
+
+.banner-image img {
+  width: 82vw;
+  height: auto;
+  margin: auto;
+  transition: .2s ease-in-out;
+}
+
+.banner-image-hover {
+  z-index: 100;
+  width: 78vw;
+  height: 90%;
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  background-color: #000;
+  opacity: .95;
+}
+
+footer {
+  margin: 0;
+  height: 5.25vw;
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 1px solid #d3d3d3;
+}
+
+footer p {
+  margin: auto;
+  padding: 2vw;
+  font-size: .73em;
+  letter-spacing: .2em;
+  line-height: 2;
+}
