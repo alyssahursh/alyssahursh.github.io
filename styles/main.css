@@ -9,7 +9,7 @@ font-family: 'Raleway', sans-serif;*/
 
 
 html {
-  font: normal normal 1vw/1 'Railway', sans-serif;
+  font: normal 500 1vw/1 'Raleway', sans-serif;
 }
 
 body {
@@ -31,6 +31,7 @@ nav a {
 }
 
 nav {
+  z-index: 1000;
   width: 100%;
   position: fixed;
   background-color: #FFF;
@@ -71,8 +72,6 @@ ul.navlinks {
   display: inline-block;
   text-transform: uppercase;
   text-align: center;
-  font-size: .73vw;
-  letter-spacing: .25em;
   width: 49vw;
   height: 1vw;
   margin: 2.625vw 0;
@@ -81,6 +80,8 @@ ul.navlinks {
 ul.navlinks li {
   display: inline-block;
   margin: 0 2vw;
+  font-size: .73em;
+  letter-spacing: .2em;
 }
 
 ul.social {
@@ -102,35 +103,59 @@ ul.social {
   width: auto;
 }
 
+.image-grid {
+  margin: 0 9vw;
+}
+
 .banner-image {
+  /*z-index: -100;*/
   text-align: center;
+  position: relative;
   padding: 0 0 11vw;
 }
 
 .banner-image a {
-  background-color: green;
-  position: relative;
   z-index: -100;
-
 }
 
 .banner-image img {
+  /*z-index: -100;*/
   width: 82vw;
-  height: auto;
-  margin: auto;
-  transition: .2s ease-in-out;
+  height: 55vw;
 }
 
 .banner-image-hover {
   z-index: 100;
   width: 78vw;
-  height: 90%;
+  height: 51vw;
   position: absolute;
   top: 2vw;
   left: 2vw;
-  background-color: #000;
+  transition: .2s linear;
+  opacity: 0;
+}
+
+.banner-image-hover p:first-of-type {
+  text-transform: uppercase;
+  margin: 23vw 0 1vw 0;
+  color: #000;
+  font-size: .95vw;
+  letter-spacing: .25em;
+}
+
+.banner-image-hover p:last-of-type {
+  color: #000;
+  font: normal 300 .95vw/1 'Raleway', sans-serif;
+  letter-spacing: .1em;
+}
+
+
+.banner-image-hover:hover {
+  z-index: 100;
+  background-color: #FFF;
   opacity: .95;
 }
+
 
 footer {
   margin: 0;
