@@ -47,6 +47,13 @@ h1 {
   width: 23vw;
 }
 
+h3 {
+  margin: 3vw 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
 .nav-padding {
   clear: both;
   padding: 0;
@@ -289,6 +296,11 @@ ul.social {
   float: left;
 }
 
+.text-block-grid {
+  padding-top: 2vw;
+  /*margin: 1vw 0 0 0;*/
+}
+
 .text-block-grid ul {
   margin: -2vw 0 0 1.5vw;
   height: 10vw;
@@ -298,6 +310,8 @@ ul.social {
   margin: 0;
   font: normal 300 .95vw/2 'Raleway', sans-serif;
   letter-spacing: .1em;
+  list-style: disc;
+  margin: 0 0 0 1vw;
 }
 
 .text-block-grid p:first-of-type {
@@ -358,6 +372,27 @@ ul.social {
   list-style: none;
 
 }
+
+
+
+/***************************************************/
+
+.technologies {
+  text-align: center;
+  margin: 4vw 0 0 0;
+}
+
+.technologies img {
+  padding: 0 2vw;
+  height: 10vw;
+  width: auto
+}
+
+.technologies img.github {
+  vertical-align: top;
+  height: 9vw;
+}
+
 
 .body-padding {
   clear: both;
