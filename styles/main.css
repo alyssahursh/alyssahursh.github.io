@@ -146,7 +146,7 @@ ul.social {
   letter-spacing: .25em;
 }
 
-.full-width-hover p:last-of-type {
+.full-width-hover p:nth-of-type(2n) {
   color: #000;
   font: normal 300 .95vw/1 'Raleway', sans-serif;
   letter-spacing: .1em;
@@ -198,7 +198,7 @@ ul.social {
   letter-spacing: .25em;
 }
 
-.two-thirds-hover p:last-of-type {
+.two-thirds-hover p:nth-of-type(2n) {
   color: #000;
   font: normal 300 .95vw/1 'Raleway', sans-serif;
   letter-spacing: .1em;
@@ -215,7 +215,7 @@ ul.social {
 /***************************************************/
 
 .one-third-image {
-  float: right;
+  display: inline-block;
   text-align: center;
   position: relative;
   margin: 0 0 1.5vw 1.5vw;
@@ -229,6 +229,10 @@ ul.social {
   /*z-index: -100;*/
   width: 26vw;
   height: 34vw;
+}
+
+.one-third-image:nth-child(3n) {
+  float: right;
 }
 
 .one-third-hover {
@@ -250,7 +254,7 @@ ul.social {
   letter-spacing: .25em;
 }
 
-.one-third-hover p:last-of-type {
+.one-third-hover p:nth-of-type(2n){
   color: #000;
   font: normal 300 .95vw/1 'Raleway', sans-serif;
   letter-spacing: .1em;
@@ -262,8 +266,18 @@ ul.social {
   opacity: .95;
 }
 
+.first-of-three {
+  margin: 0;
+  float: left;
+}
 
 
+
+.body-padding {
+  clear: both;
+  padding: 0;
+  height: 4vw;
+}
 
 .footer-padding {
   clear: both;
