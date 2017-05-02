@@ -1,9 +1,13 @@
-# alyssahursh.github.io
+# Portfolio Website
+Static portfolio website. Deployed on Github pages [here](https://alyssahursh.github.io).
 
-Additional work to be done:
-- Refactor CSS to be more DRY.
-- Create multiple style sheets rather than just one to make specific code easier to find.
-- Add section break names to CSS.
-- Add additional navlink level, right-left arrows, or similar to individual code pages to make it easier to switch between those pages. (See bottom of http://studionudge.com/hay-rosie-ice-cream for one implementation style).
-- Resize images for faster loading.
-- Handle mobile phone screens.
+![Portfolio screen shots](/Personal-website.png?raw=true "Portfolio screen shots")
+
+## Technologies
+* HTML5/CSS3
+
+## About this portfolio
+* This was my static website I ever made, and was done after written after just one week of learning HTML and CSS.
+* The design was borrowed from [Studio Nudge](http://studionudge.com) as an exercise in writing code to match visuals created by someone else.
+* The site is not mobile-responsive (I hadn't yet learned about media queries).
+* Page load time is very slow because the images are far too large.
